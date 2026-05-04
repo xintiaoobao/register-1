@@ -1,0 +1,14 @@
+{
+    "domain": "is-pro.dev",
+    "subdomain": "dsstore",
+    "owner": {
+        "username": "Denisyoya",
+        "email": "nvrsdenis@gmail.com"
+    },
+    "records": {
+        "A": [
+            "85.215.131.70"
+        ]
+    },
+    "proxied": true
+}
