@@ -25,6 +25,8 @@
 >
 > This repository is being archived and is kept only for reference/history.
 >
+> **Support is only available through Discord:** https://discord.gg/N8YzrkJxYy
+>
 > To register or manage your subdomain, use the dashboard: **https://dash.is-pro.dev**
 
 > We have moved domains: **is-cool.me → is-pro.dev** and **is-app.tech → is-into.tech**. Please update your services’ DNS, API references, and links accordingly.
@@ -87,7 +89,7 @@ The easiest way to register a subdomain is through the **[is-cool-me Dashboard](
 6. Review your settings and click **Submit Request** — a pull request will be created for you automatically.
 7. A maintainer will review your request. Once merged, your subdomain will be live!
 
-> **Beta Notice:** The dashboard is currently in **beta**. If you encounter any bugs or issues, please [open a bug report](https://github.com/is-cool-me/register/issues/new?template=dashboard-bug.[...]
+> **Beta Notice:** The dashboard is currently in **beta**. If you encounter any bugs or issues, please use the Discord server above for support.
 
 ## 📄 License
 
