@@ -2,7 +2,7 @@
 <h1 align="center">is-cool-me</h1>
 
 <p align="center">
-  <a href="https://github.com/is-cool-me/register/tree/main/domains"><img src="https://img.shields.io/github/directory-file-count/is-cool-me/register/domains?label=domains&style=for-the-badge&type=file"></a>
+  <a href="https://github.com/is-cool-me/register/tree/main/domains"><img src="https://img.shields.io/github/directory-file-count/is-cool-me/register/domains?label=domains&style=for-the-badge&type=[...]
   <a href="https://github.com/is-cool-me/register/issues"><img src="https://img.shields.io/github/issues-raw/is-cool-me/register?label=issues&style=for-the-badge"></a>
   <a href="https://github.com/is-cool-me/register/pulls"><img src="https://img.shields.io/github/issues-pr-raw/is-cool-me/register?label=pull%20requests&style=for-the-badge"></a>
 </p>
@@ -17,6 +17,13 @@
 ---
 
 ## 📢 Notice
+
+> [!NOTE]
+> The registration service has migrated to **https://dash.is-pro.dev**.
+>
+> **All other registration methods are invalidated** (including the CLI and manual GitHub PR/file-based registrations). Any such submissions will be ignored.
+>
+> To register or manage your subdomain, use the dashboard: **https://dash.is-pro.dev**
 
 > We have moved domains: **is-cool.me → is-pro.dev** and **is-app.tech → is-into.tech**. Please update your services’ DNS, API references, and links accordingly.
 
@@ -37,7 +44,7 @@ Join our community Discord server for support and updates:
 | [`*.is-pro.dev`](https://is-pro.dev) |
 | [`*.is-into.tech`](https://is-into.tech) |
 
-> **Note:** Wildcard domains (like `*.example.is-pro.dev`) and NS records are supported too, but the reason for their registration should be very clear and described in detail. We currently do **not** support Cloudflare (for NS), Netlify (for websites), or Vercel (for websites).
+> **Note:** Wildcard domains (like `*.example.is-pro.dev`) and NS records are supported too, but the reason for their registration should be very clear and described in detail. We currently do **n[...]
 
 [badge-cf]:https://shields.io/badge/%20-cloudflare-blue?logo=cloudflare&style=plastic?cacheSeconds=3600
 [badge-dnssec]:https://shields.io/badge/%20-DNSSEC-blue?logo=moleculer&logoColor=white&style=plastic?cacheSeconds=3600
@@ -78,7 +85,7 @@ The easiest way to register a subdomain is through the **[is-cool-me Dashboard](
 6. Review your settings and click **Submit Request** — a pull request will be created for you automatically.
 7. A maintainer will review your request. Once merged, your subdomain will be live!
 
-> **Beta Notice:** The dashboard is currently in **beta**. If you encounter any bugs or issues, please [open a bug report](https://github.com/is-cool-me/register/issues/new?template=dashboard-bug.md) so we can fix it quickly.
+> **Beta Notice:** The dashboard is currently in **beta**. If you encounter any bugs or issues, please [open a bug report](https://github.com/is-cool-me/register/issues/new?template=dashboard-bug.[...]
 
 ### 💻 CLI
 
