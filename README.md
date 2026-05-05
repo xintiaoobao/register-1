@@ -21,7 +21,9 @@
 > [!NOTE]
 > The registration service has migrated to **https://dash.is-pro.dev**.
 >
-> **All other registration methods are invalidated** (including the CLI and manual GitHub PR/file-based registrations). Any such submissions will be ignored.
+> **All other registration methods are invalidated** (including the CLI and manual GitHub PR/file-based registrations).
+>
+> This repository is being archived and is kept only for reference/history.
 >
 > To register or manage your subdomain, use the dashboard: **https://dash.is-pro.dev**
 
@@ -86,89 +88,6 @@ The easiest way to register a subdomain is through the **[is-cool-me Dashboard](
 7. A maintainer will review your request. Once merged, your subdomain will be live!
 
 > **Beta Notice:** The dashboard is currently in **beta**. If you encounter any bugs or issues, please [open a bug report](https://github.com/is-cool-me/register/issues/new?template=dashboard-bug.[...]
-
-### 💻 CLI
-
-1. Install the CLI:
-
-```bash
-npm install @is-cool.me/cli -g
-```
-
-2. Login to the CLI:
-
-```bash
-ic login
-```
-
-3. Register a domain and follow the prompts:
-
-```bash
-ic register
-```
-
-### ✋ Manual
-
-1. **Star** ⭐ and **[Fork](https://github.com/is-cool-me/register/fork)** this repository.
-2. Add a new file called `example.domain.json` in the `/domains` folder to register the `example` subdomain.
-3. Edit the file — below is an **example**. Provide a **valid** JSON file matching your needs. The format is strict:
-
-```json
-{
-    "domain": "is-into.tech",
-    "subdomain": "example",
-
-    "owner": {
-        "username": "yourgithubusername",
-        "email": "hello@example.com"
-    },
-
-    "records": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "AAAA": ["2606:4700:4700::1111", "2606:4700:4700::1001"],
-        "CNAME": "example.com",
-        "MX": [
-            {
-                "priority": 10,
-                "value": "mx1.example.com"
-            },
-            {
-                "priority": 20,
-                "value": "mx2.example.com"
-            }
-        ],
-        "TXT": [
-            {
-                "name": "@",
-                "value": "example_verification=1234567890"
-            }
-        ],
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-        ],
-        "SRV": [
-            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
-            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
-        ],
-        "PTR": [
-            "ptr.example.com"
-        ]
-    },
-
-    "proxied": false
-}
-```
-
-4. Your pull request will be reviewed and merged. Please don't ignore the pull request checklist — if you do, your PR may be ignored. _Keep an eye on it in case we need you to make changes!_
-5. After the pull request is merged, please allow up to 24 hours for changes to propagate _(usually it takes 5–15 minutes)_.
-6. 🎉 Enjoy your new domain!
-
-> ⚠️ Domains used for illegal purposes will be removed and permanently banned. Please provide a clear description of your resource in the pull request.
-
-## 🙏 Credits
-
-Credit for this repo goes to [Open Domains](https://github.com/open-domains/register) and [Free Domains](https://github.com/free-domains/register).
 
 ## 📄 License
 
