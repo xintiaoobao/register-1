@@ -1,0 +1,12 @@
+{
+    "domain": "is-pro.dev",
+    "subdomain": "apex",
+    "owner": {
+        "username": "xintiaoobao",
+        "email": "484448192@qq.com"
+    },
+    "records": {
+        "CNAME": "xintiaoobao.github.io"
+    },
+    "proxied": false
+}
