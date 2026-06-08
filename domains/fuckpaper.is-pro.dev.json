@@ -1,0 +1,12 @@
+{
+    "domain": "is-pro.dev",
+    "subdomain": "fuckpaper",
+    "owner": {
+        "username": "xintiaoobao",
+        "email": "484448192@qq.com"
+    },
+    "records": {
+        "CNAME": "xintiaoobao.github.io"
+    },
+    "proxied": false
+}
